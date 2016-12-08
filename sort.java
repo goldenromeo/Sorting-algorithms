@@ -1,8 +1,18 @@
 /**
  * Created by rommeltrejo on 2/24/16.
- *12/7/16 cleaned up extra spaces
- *sort algorithms must follow convention:       <sort_name>_sort
- *helper functions mustt follow convention:     <sort_name>_<helper_function_name>_helper
+ *12/07/16 cleaned up extra spaces
+ *12/07/16 added rules
+ *
+ *Conventions:
+ *---------------------------------------------------------------------------------
+ *                                  code:
+ *functions must be static
+ *
+ *---------------------------------------------------------------------------------
+ *                                 naming:
+ *sort algorithms must be named:        <sort_name>_sort
+ *helper functions must be named:       <sort_name>_<helper_function_name>_helper
+ *---------------------------------------------------------------------------------
  */
 public class sort  {
 public static Comparable[] insertion_sort (Comparable[] array){
