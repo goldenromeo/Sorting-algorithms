@@ -1,18 +1,15 @@
 /**
  * Created by rommeltrejo on 2/24/16.
+ *12/7/16 cleaned up extra spaces
+ *sort algorithms must follow convention:       <sort_name>_sort
+ *helper functions mustt follow convention:     <sort_name>_<helper_function_name>_helper
  */
 public class sort  {
-
-
-
-public static Comparable[] insertion (Comparable[] array){
+public static Comparable[] insertion_sort (Comparable[] array){
 
 //initial loop on insertion sort  array= 0_1_2_3_4_5_6... i is place on array; array  starts at 0
-
     //if array is empty then length = o,so loop is never executed
-
     for (int i = 1; i < array.length;i++ ){
-
         /**
          * second loop; k is array index like above and > i
          * k goes down
@@ -33,27 +30,14 @@ public static Comparable[] insertion (Comparable[] array){
             array[k]=array[k-1];
             array[k-1]=temp;
             temp=null;
-
-
-
+            }
         }
-
-
-
-
-
-    }
-
-
-
-
 
     return array;
 
-}
-
-
-
-
+    }
+    
+    
+    
 
 }
